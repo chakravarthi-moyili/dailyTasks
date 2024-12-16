@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="top-nav">
+        <div class="logo">My Website</div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="content">
+        <section id="home">
+          <h1>Welcome to <span></span></h1>
+          <p>
+            Discover great content, explore our services, and get in touch with
+            us!
+          </p>
+        </section>
+
+        <section id="about">
+          <h2>About Us</h2>
+          <div class="about-content">
+            <img src="img/about.avif" alt="About" />
+            <p>
+              IT solutions help businesses use their data effectively and
+              efficiently. This includes creating, management, accessing,
+              collecting, analyzing, optimizing, reporting, and presenting
+              relevant information related to customers, employees, services,
+              and processes.
+            </p>
+          </div>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="card-container">
+              <div class="card">
+                <img src="img/cloud.jpg" alt="services" />
+                <h3>Cloud Computing Services</h3>
+                <p>
+                  Providing scalable and on-demand computing resources over the
+                  internet.
+                </p>
+              </div>
+              <div class="card">
+                <img src="img/Cybersecurity.jpg" alt="services" />
+                <h3>Cybersecurity Services</h3>
+                <p>
+                  Protecting computer systems, networks, and data from cyber
+                  threats and attacks.
+                </p>
+              </div>
+              <div class="card">
+                <img src="img/Data Analytics.jpg" alt="services" />
+                <h3>Data Analytics Services</h3>
+                <p>
+                  Helping organizations make data-driven decisions by analyzing
+                  and interpreting complex data sets.
+                </p>
+              </div>
+              <div class="card">
+                <img src="img/Network.jpg" alt="services" />
+                <h3>Network Services</h3>
+                <p>
+                  Designing, implementing, and managing computer networks,
+                  including local area networks (LANs), wide area networks (WANs),
+                  and wireless networks.
+                </p>
+              </div>
+              <div class="card">
+                <img src="img/Software Development.jpg" alt="services" />
+                <h3>Software Development Services</h3>
+                <p>
+                  Designing, developing, testing, and deploying software
+                  applications to meet specific business needs.
+                </p>
+              </div>
+              <div class="card">
+                <img src="img/Web Development.jpeg" alt="services" />
+                <h3>Web Development Services</h3>
+                <p>
+                  Designing, developing, and deploying websites and web
+                  applications to meet specific business needs.
+                </p>
+              </div>
+            </div>
+          </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+          <h2>Contact Us</h2>
+          <form action="submit">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="mail">Email: </label>
+            <input type="email" id="mail" name="mail" required />
+
+            <label for="message">Message: </label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
