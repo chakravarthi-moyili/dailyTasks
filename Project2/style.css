@@ -1,24 +1,21 @@
-/* CSS Reset for consistent styling */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Ensure full height of the viewport */
   html, body {
     height: 100%;
     font-family: 'Arial', sans-serif;
   }
-  
-  /* Center the layout vertically and horizontally */
+
   .layout {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
-    background-color: #f4f7fa; /* Light background color */
+    background-color: #f4f7fa;
   }
   
   h1 {
@@ -33,7 +30,7 @@
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 350px; /* Maximum width for the form */
+    max-width: 350px;
     text-align: center;
   }
   
@@ -49,7 +46,7 @@
   }
   
   input:hover {
-    background-color: #f1f1f1; /* Change background on hover */
+    background-color: #f1f1f1;
   }
   
   button {
@@ -57,7 +54,7 @@
     padding: 12px;
     font-size: 1rem;
     color: white;
-    background-color: #4CAF50; /* Green color */
+    background-color: #4CAF50;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -65,39 +62,25 @@
   }
   
   button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049;
   }
   
   button:active {
-    transform: scale(0.98); /* Button press effect */
+    transform: scale(0.98);
   }
+ 
   
-  #upload-status {
-    margin-top: 20px;
-    font-size: 1.1rem;
-    color: #555;
-  }
-  
-  #upload-status.success {
-    color: #4CAF50; /* Success message color */
-  }
-  
-  #upload-status.error {
-    color: #e74c3c; /* Error message color */
-  }
-  
-  /* Responsive Design: Ensure good layout on smaller screens */
   @media (max-width: 400px) {
     form {
       padding: 20px;
-      width: 90%; /* Make the form wider on mobile */
+      width: 90%;
     }
   
     h1 {
       font-size: 1.5rem;
     }
   
-    input[type="file"], button[type="submit"] {
+    input, button {
       font-size: 1rem;
     }
   }
